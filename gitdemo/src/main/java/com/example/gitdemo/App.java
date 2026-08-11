@@ -5,6 +5,6 @@ package com.example.gitdemo;
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println("Github authentication!");
+        System.out.println("Github authentication verify!");
     }
 }
