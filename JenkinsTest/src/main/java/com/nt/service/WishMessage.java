@@ -38,7 +38,5 @@ public class WishMessage extends HttpServlet {
 		System.out.println("WishMessage.doPost()");
 		doGet(req,res);
 	}
-
-	
 	
 }
