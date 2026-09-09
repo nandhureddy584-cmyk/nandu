@@ -26,7 +26,7 @@ public class WishMessage extends HttpServlet {
 		else if(hour<16)
 			pw.println("<h1 style='color:maroon;align:center'>Good Afternoon</h1>");
 		else
-			pw.println("<h1 style='color:red;align:center'>Good Evening</h1>");
+			pw.println("<h1 style='color:green;align:center'>Good Evening</h1>");
 		
 		
 		pw.println("<br> <a href='index.jsp'>Home</a>");
