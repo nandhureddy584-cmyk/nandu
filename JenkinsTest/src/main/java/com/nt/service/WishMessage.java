@@ -22,7 +22,7 @@ public class WishMessage extends HttpServlet {
 		LocalTime ltime=LocalTime.now();
 		int hour=ltime.getHour();
 		if(hour<12)
-			pw.println("<h1 style='color:red;align:center'>Good Morning</h1>");
+			pw.println("<h1 style='color:red;align:center'>GoodMorning</h1>");
 		else if(hour<16)
 			pw.println("<h1 style='color:maroon;align:center'>GoodAfternoon</h1>");
 		else
